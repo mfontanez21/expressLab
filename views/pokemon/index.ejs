@@ -1,0 +1,12 @@
+<body>
+  <h1>Pokemon</h1>
+  <ul>
+    <% pokemon.forEach(pokemon =>{ %>
+        <li>
+          <%= pokemon.name %>
+          -
+          <%= pokemon.starter ? "Starter" : "Not a Starter" %>
+        </li>
+    <% }) %>
+  </ul>
+</body>
